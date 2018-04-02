@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class=page>
+  <h1>Recommendations For Second Item</h1>
+  {% for table in tables %}
+
+    {{ table|safe }}
+  {% endfor %}
+</div>
+<br>
+<br>
+<table  border="1">
+    <tr>
+        <th>UserId</th>
+        <th>ItemId</th>
+    </tr>
+    <tr>
+        <td>1001</td>
+        <td>5001</td>
+    </tr>
+    <tr>
+        <td>1001</td>
+        <td>5002</td>
+    </tr>
+    <tr>
+        <td>1001</td>
+        <td>5005</td>
+    </tr>
+    <tr>
+        <td>1002</td>
+        <td>5003</td>
+    </tr>
+    <tr>
+        <td>1002</td>
+        <td>5004</td>
+    </tr>
+     <tr>
+        <td>1002</td>
+        <td>5005</td>
+    </tr>
+    <tr>
+        <td>1003</td>
+        <td>5001</td>
+    </tr>
+    <tr>
+        <td>1003</td>
+        <td>5002</td>
+    </tr>
+    <tr>
+        <td>1004</td>
+        <td>5001</td>
+    </tr>
+    <tr>
+        <td>1004</td>
+        <td>5004</td>
+    </tr>
+</table>
+
+</body>
+</html>
